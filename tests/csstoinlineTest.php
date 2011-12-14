@@ -3,7 +3,11 @@
 class csstoinlineTest extends PHPUnit_Framework_TestCase {
 
    public function testSimple() {
-      $this->fail('Foo');
+      $css = 'p{color:blue}';
+      $html = '<html><head></head><body><p>foo</p></body></html>';
+
+      $conv = Csstoinline::convert($html, $css);
+      echo $conv;
    }
 
 }
