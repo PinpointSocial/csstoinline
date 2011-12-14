@@ -1,0 +1,3 @@
+[submodule "vendor/CssToInlineStyles"]
+	path = vendor/CssToInlineStyles
+	url = https://github.com/tijsverkoyen/CssToInlineStyles.git
